@@ -1,73 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Componentes</title>
-    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital@0;1&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,800;1,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    
-    <div class="container">
-            <div class="box">
-                <h2 class="texto_principal">Your Result</h2>
-                <div class="number">
-                    <p class="item_number">
-                        76
-                    </p>
-                    <p class="number_two">of 100</p>
-                </div>
-                <div>
-                    <h2 class="texto_secundario">
-                        Great
-                    </h2>
-                    <p class="texto_paragrafo">
-                        You scored higher than 65% of the<br>people who have taken these tests
-                    </p>
-                </div>
-            </div>
-            <div class="box_1">
-                <h2 class="texto_indice">
-                    Summary
-                </h2>
-                <div class="itens_indice">
-                    <a class="card card_reaction" href="">
-                        <img src="./images/icon-reaction.svg" alt="">
-                        <h4>Reaction</h4>
-                        <span class="number_span">80<span class="span">/100</span></span>
-                    </a>
-                    <a class="card card_memory" href="">
-                        <img src="./images/icon-memory.svg" alt="">
-                        <h4>Memory</h4>
-                        <span class="number_span">92<span class="span">/100</span></span>
-                    </a>
-                    <a class="card card_verbal" href="">
-                        <img src="./images/icon-verbal.svg" alt="">
-                        <h4>Verbal</h4>
-                        <span class="number_span">61<span class="span">/100</span></span>
-                    </a>
-                    <a class="card card_visual" href="">
-                        <img src="./images/icon-visual.svg" alt="">
-                        <h3>Visual</h3>
-                        <span class="number_span">72<span class="span">/100</span></span>
-                    </a>
-                </div>
-                <button class="btn">Continue</button>
-            </div>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="box_container">
+      <div class="box_result">
+        <p class="text_result">Your Result</p>
+        <div class="span_container">
+          <p class="box_span">76 <span>of 100</span></p>
         </div>
+        <h1>Great</h1>
+        <p class="text_score">
+          Your scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="box_summary">
+        <div class="box_summary_text">
+          <h2>Summary</h2>
+          <div class="box_score">
+            <div class="box_score_card">
+              <img src="./images/icon-reaction.svg" alt="" />
+              <span>Reaction</span>
+            </div>
+            <div>
+              <p class="number">80 <span>/ 100</span></p>
+            </div>
+          </div>
+          <div class="box_score">
+            <div class="box_score_card">
+              <img src="./images/icon-memory.svg" alt="" />
+              <span>Memory</span>
+            </div>
+            <div>
+              <p class="number">92 <span>/ 100</span></p>
+            </div>
+          </div>
+          <div class="box_score">
+            <div class="box_score_card">
+              <img src="./images/icon-verbal.svg" alt="" />
+              <span>Verbal</span>
+            </div>
+            <div>
+              <p class="number">61 <span>/ 100</span></p>
+            </div>
+          </div>
+          <div class="box_score">
+            <div class="box_score_card">
+              <img src="./images/icon-visual.svg" alt="" />
+              <span>Visual</span>
+            </div>
+            <div>
+              <p class="number">73 <span>/ 100</span></p>
+            </div>
+          </div>
+          <button class="btn" type="submit">
+            Continue
+        </button>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
